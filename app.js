@@ -15,7 +15,7 @@ function addTask() {
         tasks.push(newTask);
         renderTasks();
     } else {
-        alert('Please enter a valid task name.');
+        alert('Please enter a valid task name.!!');
     }}
 function deleteTask() {
     const taskName = document.getElementById('taskName').value;
@@ -24,7 +24,7 @@ function deleteTask() {
         tasks = tasks.filter(task => task.name !== taskName);
         renderTasks();
     } else {
-        alert('Please enter a valid task name.');
+        alert('Please enter a valid task name.!!');
     }}
 function prioritizeTasks() {
     tasks.sort((a, b) => b.priority - a.priority);
@@ -40,6 +40,6 @@ function markTaskCompleted() {
         } else {
             alert('Task not found.');
      }} else {
-        alert('Please enter a valid task name.');
+        alert('Please enter a valid task name.!!');
     }}
 renderTasks();
