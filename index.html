@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Task Manager</title>
+</head>
+<body>
+
+<div class="task-manager">
+    <h1>Task Manager</h1>
+
+    <div>
+        <label for="taskName">Task Name:</label>
+        <input type="text" id="taskName" placeholder="Enter task name">
+    </div>
+    
+    <div>
+        <label for="priority">Priority:</label>
+        <input type="number" id="priority" placeholder="Priority">
+    </div>
+
+    <button onclick="addTask()">Add Task</button>
+    <button onclick="deleteTask()">Delete Task</button>
+    <button onclick="prioritizeTasks()">Prioritize Tasks</button>
+    <button onclick="markTaskCompleted()">Mark as Completed</button>
+
+    <ul id="taskList"></ul>
+</div>
+<footer>
+    <p>&copy; 2023 Samir Bogati. All rights reserved.</p>
+    <div class="social-links">
+        <a href="https://www.linkedin.com/in/samir-bogati-62bb04165/" target="_blank">LinkedIn</a>
+        <a href="https://www.instagram.com/samirbogati/" target="_blank">Instagram</a>
+        <a href="https://www.youtube.com/@samirbogati4451" target="_blank">Youtube</a>
+        
+    </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+<footer>
+
+</footer>
+</html>
+
