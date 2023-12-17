@@ -8,7 +8,6 @@ body {
     height: 100vh;
     background-image: linear-gradient(to right bottom, #4CAF50, #2196F3);
 }
-
 .task-manager {
     background-color: #fff;
     padding: 20px;
@@ -16,16 +15,13 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
-
 .input-section, .button-section {
     margin-bottom: 20px;
 }
-
 input, button {
     margin: 8px;
     padding: 8px;
 }
-
 button {
     background-color: #4CAF50;
     color: #fff;
@@ -33,16 +29,13 @@ button {
     border-radius: 4px;
     cursor: pointer;
 }
-
 button:hover {
     background-color: #45a049;
 }
-
 ul {
     list-style-type: none;
     padding: 0;
 }
-
 li {
     margin-bottom: 8px;
 }
@@ -52,13 +45,11 @@ footer {
     text-align: center;
     padding: 10px;
 }
-
 .social-links a {
     color: #fff;
     text-decoration: none;
     margin: 0 10px;
 }
-
 .social-links a:hover {
     text-decoration: underline;
 }
